@@ -1,0 +1,63 @@
+
+/*  . Variables
+	---------------------------
+
+$header-height: 60px
+
+
+
+/*  . Typography
+	----------------------------
+
+$font-size-large: 16px
+$font-size-base: 14px
+$font-size-small: 12px
+
+$font-family-base: 'Open Sans', sans-serif
+$font-family-brand: 'Courgette', cursive
+
+$font-weight-bold: 600
+$font-weight-base: 400
+$font-weight-thin: 200
+
+
+
+/*  . Color Palette
+	----------------------------
+
+//$bg-color-base:     #EBEFF1
+$bg-color-base:     #f5f3f1
+
+$primary-color-dark:    #403a3b
+$primary-color:         #ef6b44
+$primary-color-light:   #c3a279
+
+$accent-color:      #f79536
+
+$link-color:        $accent-color
+$link-hover-color:  lighten($link-color, 10%)
+
+
+/*  . Media Queries
+	----------------------------
+
+@mixin smallScreen
+	@media only screen and (min-width: 768px)
+		@content
+
+@mixin mediumScreen
+	@media only screen and (min-width: 992px)
+		@content
+
+@mixin largeScreen
+	@media only screen and (min-width: 1200px)
+		@content
+
+
+@mixin smallScreenOnly
+	@media only screen and (min-width: 768px) and (max-width: 991px)
+		@content
+
+@mixin mediumScreenOnly
+	@media only screen and (min-width: 992px) and (max-width: 1199px)
+		@content

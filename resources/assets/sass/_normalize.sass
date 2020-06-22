@@ -1,0 +1,58 @@
+body, html
+	position: relative
+	height: 100%
+	width: 100%
+
+
+body
+	font-family: $font-family-base
+	font-size: $font-size-base
+	font-weight: $font-weight-base
+
+	color: #666
+	background-color: $bg-color-base
+
+
+// Link
+a
+	outline: none
+	text-decoration: none
+	color: $link-color
+	+transition(all 0.4s)
+
+	&:hover, &:focus
+		text-decoration: none
+		color: $link-hover-color
+
+img
+	vertical-align: middle
+
+legend
+	display: inline
+
+select, option
+	padding: 4px
+
+table td
+	padding: 5px
+
+th
+	text-align: center
+
+/*######### HEADING #########*/
+h2
+	text-align: center
+
+
+/*######### Select Option ##########*/
+select option, select.form-control option
+	font: normal normal 13px tahoma
+
+
+// remove list padding
+
+ul
+	padding: 0
+	margin: 0
+	list-style: none
+
