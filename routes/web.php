@@ -24,7 +24,7 @@
 
 
 // Authentication
-Auth::routes();
+//Auth::routes();
 
 
 //Route::middleware('auth')
